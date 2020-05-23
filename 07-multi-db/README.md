@@ -11,8 +11,6 @@ docker run \
     -d \
     postgres
 
-docker ps
-docker exec -it postgres /bin/bash
 
 ## Adminer - Postgres Client
 
@@ -47,3 +45,19 @@ docker run \
 docker exec -it mongodb \
     mongo --host localhost -u admin -p admin --authenticationDatabase admin \
     --eval "db.getSiblingDB('heroes').createUser({user: 'thiago', pwd: 'minhasenha', roles: [{role: 'readWrite', db: 'heroes'}]})"
+
+#### Docker, comandos gerais
+
+docker ps
+
+docker ps -f "status=exited"
+
+docker start mongodb
+
+docker start mongoclient
+
+docker exec -it postgres /bin/bash
+
+
+
+
