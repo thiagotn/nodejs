@@ -18,7 +18,7 @@
     "@hapi/vision": "^6.0.0",
     "hapi-auth-jwt2": "^10.1.0",
     "hapi-swagger": "^13.0.1",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "mongoose": "^5.9.15",
     "pg": "^8.2.1",
     "pg-hstore": "^2.3.3",
